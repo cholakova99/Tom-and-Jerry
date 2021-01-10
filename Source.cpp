@@ -13,7 +13,7 @@
 int main()
 {
 	// input the path here :
-	MapGame::ReadAndCreate("C:\\Users\\zlatina\\Desktop\\mm.txt");
+	MapGame::ReadAndCreate("");
 
 	return 0;
 }
