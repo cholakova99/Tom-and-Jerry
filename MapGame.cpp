@@ -362,6 +362,6 @@ void MapGame::ReadAndCreate(const char* myFilePath) {
 
 	// CREATE IMAGE PART :
 	// USE PATH TO THE PROJECT HERE : 
-	system("cd C:\\Program Files (x86)\\Graphviz2.38\\bin && .\\dot -Tjpg C:\\Users\\zlatina\\source\\repos\\tom_and_jerry_81867_final\\tomjerry2.dot -o C:\\Users\\zlatina\\source\\repos\\tom_and_jerry_81867_final\\tree.jpg");
-	system("C:\\Users\\zlatina\\source\\repos\\tom_and_jerry_81867_final\\tree.jpg");
+	system("cd C:\\Program Files (x86)\\Graphviz2.38\\bin && .\\dot -Tjpg /* path-to-dot-file*/ -o /* path-to-image-file*/");
+	system(/* path-to-image-file */);
 }
